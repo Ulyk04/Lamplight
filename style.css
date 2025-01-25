@@ -327,6 +327,8 @@ body{
         align-items: center;
         flex-direction: column;
         margin: 0;
+        width: 300px;
+        margin-left: 20px;
     }
     .desc-1 h1{
         font-size: 40px;
@@ -359,6 +361,8 @@ body{
         flex-direction: column;
         margin: 0;
         width: 300px;
+        margin-left: 20px;
+        text-align: center;
     }
     .title-2 h1{
         font-size: 50px;
@@ -372,6 +376,65 @@ body{
         object-fit: cover;
     }
     .image-2{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+    /* section - 3*/
+
+    .title-3{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        width: 300px;
+        text-align: center;
+        margin-left: 20px;
+    }
+    .title-3 h1{
+        font-size: 50px;
+    }
+    .big-desc-3{
+        flex-direction: column;
+        width: 300px;
+    }
+    .catalog{
+        width: 300px;
+    }
+    /* section - 4 */
+
+    .big-desc-4{
+        flex-direction: column;
+    }
+    .small-desc{
+        width: 300px;
+    }
+    /* section - 5 */
+
+    .image-5{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+    .image-5 img{
+        width: 300px;
+        height: 400px;
+    }
+    .big-title-5{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0;
+    }
+    .title-5{
+        width: 300px;
+    }
+    /* footer */
+
+    .big-title-foot{
+        width: 360px;
+    }
+    .image-foot{
         display: flex;
         justify-content: center;
         margin: 0;
