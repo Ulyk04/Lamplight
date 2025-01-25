@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Anton&family=Bangers&family=Bebas+Neue&family=Jersey+15&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Krona+One&family=Nosifer&family=Protest+Revolution&family=Shadows+Into+Light&family=Yatra+One&display=swap');
+
+html , body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to right , rgb(67, 147, 201) , rgb(24, 105, 143));
+    font-family: "Shadows Into Light", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* section - 1 */
+.title-1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: white;
+    margin: 100px 150px;
+}
+.title-1 img{
+    width: 200px;
+    height: 200px;
+}
+.title-1 h1{
+    font-size: 20px;
+}
+.title-text{
+    position: relative;
+    top: 40px;
+}
+.desc-1 h1{
+    font-size: 80px;
+    color: white;
+}
+.desc-1{
+    width: 500px;
+    margin-left: 200px;
+}
+.desc-1 button{
+    width: 300px;
+    height: 50px;
+    border: none;
+    background-color: rgb(13, 77, 107);
+    border-radius: 25px;
+    font-size: large;
+    cursor: pointer;
+    font-family: "Shadows Into Light" , serif;
+    font-weight: 900;
+    color: white;
+}
+.image-1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: -600px;
+    margin-right: 200px;
+}
+.button-apple img , .button-playstore img{
+    position: relative;
+    top: 15px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.button-apple , .button-playstore{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 80px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.button-apple p , .button-playstore p{
+    font-size: 20px;
+}
+.links-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 400px;
+    margin-top: -200px;
+}
+.section-1{
+    padding: 150px 0;
+    margin-top: -150px;
+}
+
+/* section -2 */
+
+.section-2{
+    padding: 100px 0;
+    background-color: white;
+}
+.title-2 h1{
+    font-size: 80px;
+    color: rgb(13, 77, 107);
+}
+.title-2 p{
+    font-size: 40px;
+    color: rgb(13, 77, 107);
+}
+.title-2{
+    width: 800px;
+    margin-left: 200px;
+}
+.image-2{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -600px;
+    margin-right: 100px;
+}
+.image-2 img{
+    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 85% 100%, 100% 50%, 15% 100%, 0% 80%);
+}
+
+/* section -3 */
+
+.section-3{
+    background-color: white;
+    padding-top:50px ; 
+}
+.title-3 h1{
+    font-size: 80px;  
+    color: rgb(13, 77, 107);  
+}
+.title-3{
+    margin-left: 200px;
+}
+.big-desc-3{
+    display: flex;
+    justify-content: center;
+}
+.small-desc-1 , .small-desc-2 , .small-desc-3{
+    width: 600px;
+    padding: 20px 40px;
+    margin-top: 130px;
+    height: 450px;
+}
+.small-desc-1 h1, .small-desc-2 h1, .small-desc-3 h1{
+    font-size: 40px;
+    background-color: rgb(67, 147, 201);
+    border-radius: 80px;
+    text-align: center;
+    color: rgb(13, 77, 107)
+}
+.small-desc-1 p, .small-desc-2 p, .small-desc-3 p{
+    font-size: 30px;
+}
+.small-desc-1 , .small-desc-3{
+    background-color: rgb(38, 75, 92);
+    color: white;
+}
+.small-desc-2{
+    background-color: rgb(24, 105, 143);
+    color: rgb(159, 208, 240);
+}
+
+/* section - 4 */
+
+.title-4 h1{
+    font-size: 80px;
+    color: white;
+}
+.title-4{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.big-desc-4{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.small-desc{
+    width: 400px;
+}
+.small-desc h1{
+    font-size: 40px;
+    color: rgb(159, 208, 240);
+}
+.small-desc p{
+    font-size: 30px;
+    color: rgb(159, 208, 240);
+}
+
+/* section - 5*/
+.section-5{
+    background-color: white;
+    padding-top: 250px;
+    padding-bottom: 100px;
+}
+.title-5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+}
+.title-5 h1{
+    font-size: 80px;
+    color: rgb(13, 77, 107);
+}
+.title-5 p{
+    font-size: 30px;
+    color: rgb(13, 77, 107);
+}
+.big-title-5{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    flex-direction: column;
+    margin-top: -750px;
+    margin-right: 200px;
+}
+.image-5 img{
+    width: 600px;
+    height: 700px;
+    object-fit: cover;
+    border-radius: 0 0 250px 250px;
+}
+.image-5{
+    margin-left: 200px;
+}
+
+/* footer */
+.big-title-foot{
+    width: 800px;
+}
+.data h1 , .data-2 h1{
+    font-size: 50px;
+    color: rgb(38, 75, 92);
+}
+.data p{
+    font-size: 25px;
+    color:rgb(38, 75, 92) ;
+}
+.data{
+    background-color: white;
+    padding: 5px 20px;
+    border: 1px rgb(13, 77, 107) solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.data-2{
+    background-color: aqua;
+    color: rgb(38, 75, 92);
+    display: flex;
+    flex-direction: column;
+    padding: 5px 20px;
+    border: 1px rgb(13, 77, 107) solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact h1{
+    font-size: 70px;
+    color: rgb(159, 208, 240);
+}
+.contact{
+    background-color: rgb(38, 75, 92);
+    padding: 5px 20px;
+    border: 1px rgb(13, 77, 107) solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.data-2 button{
+    width: 200px;
+    height: 40px;
+    border: none;
+    background-color: rgb(67, 147, 201);
+    color: white;
+    font-size: 20px;
+    font-family: "Shadows Into Light" , serif;
+    border-radius: 25px;
+    margin: 2px;
+    cursor: pointer;
+}
+.image-foot{
+    display: flex;
+    justify-content: end;
+    margin-top: -700px;
+    margin-right: 250px;
+}
